@@ -29,7 +29,7 @@
 	</div>
 
 	<br>
-	<img src = {mime_url}> <br> <br>
+	<img src = {mime_url} alt="meme"> <br> <br>
 	<button on:click={cat} class="button1">Submit</button>
 
 </main>
