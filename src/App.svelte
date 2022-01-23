@@ -3,13 +3,13 @@
 	let top = "";
 	let bot = "";
 	let img_url = "https://cdn.discordapp.com/attachments/816011914206511165/916927953781260348/unknown.png";
-	let mime_url = `https://mime.rcp.r9n.co/memes/default?image=${img_url}&top=${top}&bottom=${bot}`;
+	let mime_url = `https://cdn.nathanferns.xyz/memes/default?image=${img_url}&top=${top}&bottom=${bot}`;
 
 	async function cat(){
 		let response = await fetch("https://api.thecatapi.com/v1/images/search");
 		let data = await response.json();
 		img_url = data[0].url;
-		mime_url = `https://mime.rcp.r9n.co/memes/default?image=${img_url}&top=${top}&bottom=${bot}`;
+		mime_url = `https://cdn.nathanferns.xyz/memes/default?image=${img_url}&top=${top}&bottom=${bot}`;
 	}
 
 </script>
